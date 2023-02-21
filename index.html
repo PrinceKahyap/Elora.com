@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="Responsive.css">
     <title>Elora.com</title>
 </head>
+
 <body>
     <!-- ---------------- Header_section ---------------- -->
     <header class="wrapper">
@@ -25,9 +27,9 @@
                 <li><a href="#" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger" onclick="myFunction(this)">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
         </nav>
     </header>
@@ -38,6 +40,60 @@
         <!-- hero-section  -->
         <section class="hero"></section>
         <!-- /hero-section  -->
+
+        <!-- Contact-section  -->
+        <section class="contact">
+            <div class="title">
+                <h2><span>Contact</span> Me</h2>
+            </div>
+            <div class="contact-container wrapper">
+                <div class="contactLeft">
+                    <div class="con-title">
+                        <h3>Get In Touch</h3>
+                        <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.</p>
+                    </div>
+                    <div class="contact-address">
+                        <div class="contact-info">
+                            <span>Phone:</span>
+                            <ul>
+                                <li><i class="fa fa-phone"></i> +123-456-789</li>
+                                <li><i class="fa fa-phone"></i> +111-222-333</li>
+                            </ul>
+                        </div>
+                        <div class="contact-info">
+                            <span>Email:</span>
+                            <ul>
+                                <li><i class="fa fa-envelope"></i> abc@gmail.com</li>
+                                <li><i class="fa fa-envelope"></i> xyz@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="contact-info">
+                            <span>Linkedin:</span>
+                            <ul>
+                                <li><i class="fa fa-linkedin"></i> https://www.linkedin.com/</li>
+                            </ul>
+                        </div>
+                        <div class="contact-info">
+                            <span>Github:</span>
+                            <ul>
+                                <li><i class="fa fa-github"></i>
+                                    https://github.com/</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactRight">
+                    <form action="/">
+                        <input type="text" placeholder="name" required>
+                        <input type="text" placeholder="email" required>
+                        <input type="text" placeholder="subject" required>
+                        <textarea name="" id="" cols="30" rows="8" placeholder="message"></textarea>
+                        <button class="contact-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- /Contact-section  -->
     </main>
     <!-- ---------------- /Main_section ---------------- -->
 
@@ -53,13 +109,15 @@
                 </ul>
             </div>
             <div class="foot-info">
-                <p>Created By AS_Designs | All Rights Reserved</p>
+                <p>Created By <span>Prince Kashyap</span> | All Rights Reserved</p>
             </div>
         </div>
+        <button onclick="topFunction()" id="myBtn"><i class="fa fa-chevron-up"></i></button>
     </footer>
     <!-- ---------------- /Footer_section ---------------- -->
 
     <script src="/main.js"></script>
     <script src="https://kit.fontawesome.com/edcd5c8c16.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
