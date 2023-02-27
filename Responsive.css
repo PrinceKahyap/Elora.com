@@ -6,6 +6,11 @@
         width: 150px;
         height: 150px;
     }
+    .experience-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 50px;
+    }
 
 }
 
@@ -50,6 +55,14 @@
         display: block;
     }
 
+    .hero-container {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+    .hero-img img{
+        width: 100%;
+        height: 100%;
+    }
     .skill-container {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0;
@@ -79,4 +92,10 @@
         font-size: 3rem;
         color: var(--purple);
     }
+}
+@media (max-width:568px) {
+    
+}
+@media (max-width:380px) {
+
 }

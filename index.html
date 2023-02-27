@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <title>Elora.com</title>
 </head>
 
@@ -21,9 +22,9 @@
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#service" class="nav-link">Service</a></li>
-                <li><a href="#" class="nav-link">Portfolio</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
                 <li><a href="#testimonial" class="nav-link">Testimonials</a></li>
-                <li><a href="#" class="nav-link">Blogs</a></li>
+                <li><a href="#blog" class="nav-link">Blogs</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger" onclick="myFunction(this)">
@@ -38,11 +39,11 @@
     <!-- ---------------- Main_section ---------------- -->
     <main>
         <!-- hero-section  -->
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="hero-container wrapper">
                 <div class="heroLeft">
                     <h2>Hi There!</h2>
-                    <h1>I Am a Web Developer|</h1>
+                    <h1>I Am a <span id="typed"></span></h1>
                     <p>Creative Web Developer Offering 4+ Years Of Experience Providing High-Impact Web Solutions For
                         Many Different Organizations.</p>
                     <a href="#" class="hero-btn">About Me</a>
@@ -177,6 +178,68 @@
         </section>
         <!-- skill-section  -->
 
+        <!-- Qualification-section  -->
+        <section class="experience">
+            <div class="title">
+                <h2>My <span>Qualification</span></h2>
+            </div>
+            <div class="experience-container wrapper">
+                <div class="experienceBox">
+                    <div class="experience-item">
+                        <i class="fa fa-graduation-cap"></i>
+                        <div class="experience-content">
+                            <span>2015 - 2016</span>
+                            <h3>Engineering</h3>
+                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Vitae Vel Quasi Consectetur Expedita Ipsam Similique Maiores Ipsa? Error, Debitis Ullam.</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <i class="fa fa-graduation-cap"></i>
+                        <div class="experience-content">
+                            <span>2015 - 2016</span>
+                            <h3>Engineering</h3>
+                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Vitae Vel Quasi Consectetur Expedita Ipsam Similique Maiores Ipsa? Error, Debitis Ullam.</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <i class="fa fa-graduation-cap"></i>
+                        <div class="experience-content">
+                            <span>2015 - 2016</span>
+                            <h3>Engineering</h3>
+                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Vitae Vel Quasi Consectetur Expedita Ipsam Similique Maiores Ipsa? Error, Debitis Ullam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="experienceBox">
+                    <div class="experience-item">
+                        <i class="fa fa-camera"></i>
+                        <div class="experience-content">
+                            <span>2015 - 2016</span>
+                            <h3>Engineering</h3>
+                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Vitae Vel Quasi Consectetur Expedita Ipsam Similique Maiores Ipsa? Error, Debitis Ullam.</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <i class="fa fa-camera"></i>
+                        <div class="experience-content">
+                            <span>2015 - 2016</span>
+                            <h3>Engineering</h3>
+                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Vitae Vel Quasi Consectetur Expedita Ipsam Similique Maiores Ipsa? Error, Debitis Ullam.</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <i class="fa fa-camera"></i>
+                        <div class="experience-content">
+                            <span>2015 - 2016</span>
+                            <h3>Engineering</h3>
+                            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Vitae Vel Quasi Consectetur Expedita Ipsam Similique Maiores Ipsa? Error, Debitis Ullam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Qualification-section  -->
+
         <!-- service-section  -->
         <section class="service" id="service">
             <div class="title">
@@ -229,6 +292,53 @@
         </section>
         <!-- /service-section  -->
 
+        <!-- Portfolio-section  -->
+        <section class="portfolio" id="portfolio">
+            <div class="title">
+                <h2>My <span>Portfolio</span></h2>
+            </div>
+            <div class="portfolio-container wrapper">
+                <div class="row">
+                    <div class="gallery-filter">
+                        <span class="filter-item active" data-filter="all">All</span>
+                        <span class="filter-item" data-filter="dev">Web Development</span>
+                        <span class="filter-item" data-filter="graphic">graphic Design</span>
+                        <span class="filter-item" data-filter="Photography">Photography</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="gallery-item all">
+                        <img src="/img/portfolio-1.png" alt="">
+                    </div>
+                    <div class="gallery-item dev">
+                        <img src="/img/portfolio-2.png" alt="">
+                    </div>
+                    <div class="gallery-item dev">
+                        <img src="/img/portfolio-3.png" alt="">
+                    </div>
+                    <div class="gallery-item graphic">
+                        <img src="/img/portfolio-4.png" alt="">
+                    </div>
+                    <div class="gallery-item dev">
+                        <img src="/img/portfolio-5.png" alt="">
+                    </div>
+                    <div class="gallery-item graphic">
+                        <img src="/img/portfolio-6.png" alt="">
+                    </div>
+                    <div class="gallery-item Photography">
+                        <img src="/img/portfolio-4.png" alt="">
+                    </div>
+                    <div class="gallery-item Photography">
+                        <img src="/img/portfolio-5.png" alt="">
+                    </div>
+                    <div class="gallery-item Photography">
+                        <img src="/img/portfolio-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Portfolio-section  -->
+
         <!-- Testimonial-section  -->
         <section class="testi" id="testimonial">
             <div class="title">
@@ -238,7 +348,7 @@
                 <div class="carousel owl-carousel">
                     <div class="card">
                         <img src="/img/pic-1.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -250,7 +360,7 @@
                     </div>
                     <div class="card">
                         <img src="/img/pic-2.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -262,7 +372,7 @@
                     </div>
                     <div class="card">
                         <img src="/img/pic-3.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -274,7 +384,7 @@
                     </div>
                     <div class="card">
                         <img src="/img/pic-4.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -286,7 +396,7 @@
                     </div>
                     <div class="card">
                         <img src="/img/pic-5.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -298,7 +408,7 @@
                     </div>
                     <div class="card">
                         <img src="/img/pic-2.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -310,7 +420,7 @@
                     </div>
                     <div class="card">
                         <img src="/img/pic-1.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -322,7 +432,7 @@
                     </div>
                     <div class="card">
                         <img src="/img/pic-2.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -334,7 +444,7 @@
                     </div>
                     <div class="card">
                         <img src="/img/pic-3.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -346,7 +456,7 @@
                     </div>
                     <div class="card">
                         <img src="/img/pic-4.png" alt="">
-                        	<i class="fa fa-quote-left"></i>
+                        <i class="fa fa-quote-left"></i>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum deleniti architecto harum natus aliquid nostrum
@@ -363,20 +473,129 @@
         <!-- /Testimonial-section  -->
 
         <!-- Blog-section  -->
-        <!-- <section class="testi" id="testimonial">
+        <section class="blog" id="blog">
             <div class="title">
                 <h2>My <span>Blog</span></h2>
             </div>
-            <div class="wrapper">
-                <div class="carousel owl-carousel">
-                    <div class="card card-1">A</div>
-                    <div class="card card-2">B</div>
-                    <div class="card card-3">C</div>
-                    <div class="card card-4">D</div>
-                    <div class="card card-5">E</div>
+            <div class="blog-container wrapper">
+                <div class="carousal owl-carousel ">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="/img/blog-1.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-date">
+                                <p><i class="fa fa-calendar"></i> 1st Jan, 2023</p>
+                            </div>
+                            <div class="blog-admin">
+                                <p><i class="fa fa-user"></i> By Admin</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Learn Web Development as a Beginner</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Nam possimus modi.</p>
+                            <button class="blog-btn">Read More  <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="/img/blog-2.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-date">
+                                <p><i class="fa fa-calendar"></i> 1st Jan, 2023</p>
+                            </div>
+                            <div class="blog-admin">
+                                <p><i class="fa fa-user"></i> By Admin</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Learn Web Development as a Beginner</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Nam possimus modi.</p>
+                            <button class="blog-btn">Read More  <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="/img/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-date">
+                                <p><i class="fa fa-calendar"></i> 1st Jan, 2023</p>
+                            </div>
+                            <div class="blog-admin">
+                                <p><i class="fa fa-user"></i> By Admin</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Learn Web Development as a Beginner</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Nam possimus modi.</p>
+                            <button class="blog-btn">Read More  <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="/img/blog-4.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-date">
+                                <p><i class="fa fa-calendar"></i> 1st Jan, 2023</p>
+                            </div>
+                            <div class="blog-admin">
+                                <p><i class="fa fa-user"></i> By Admin</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Learn Web Development as a Beginner</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Nam possimus modi.</p>
+                            <button class="blog-btn">Read More  <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="/img/blog-5.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-date">
+                                <p><i class="fa fa-calendar"></i> 1st Jan, 2023</p>
+                            </div>
+                            <div class="blog-admin">
+                                <p><i class="fa fa-user"></i> By Admin</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Learn Web Development as a Beginner</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Nam possimus modi.</p>
+                            <button class="blog-btn">Read More  <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="/img/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-info">
+                            <div class="blog-date">
+                                <p><i class="fa fa-calendar"></i> 1st Jan, 2023</p>
+                            </div>
+                            <div class="blog-admin">
+                                <p><i class="fa fa-user"></i> By Admin</p>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Learn Web Development as a Beginner</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Nam possimus modi.</p>
+                            <button class="blog-btn">Read More  <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- /Blog-section  -->
 
         <!-- Contact-section  -->
@@ -458,8 +677,8 @@
     <script src="https://code.jquery.com/jquery-3.6.2.min.js"
         integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <script src="https://kit.fontawesome.com/edcd5c8c16.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="/main.js"></script>
 </body>
 
