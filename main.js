@@ -21,11 +21,6 @@ function closeMenu() {
     navMenu.classList.remove("active");
 };
 
-// toggle 
-function myFunction(x) {
-    x.classList.toggle("change");
-}
-
 // Toptoback 
 let mybutton = document.getElementById("myBtn");
 
