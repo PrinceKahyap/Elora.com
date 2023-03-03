@@ -567,8 +567,8 @@ header.sticky{
     margin-top: 40px;
 }
 .owl-dot{
-    height: 14px;
-    width: 14px;
+    height: 10px;
+    width: 10px;
     border-radius: 25px;
     cursor: pointer;
     outline: none;
@@ -580,7 +580,7 @@ header.sticky{
     background: #0072bc !important;
 }
 .owl-dot.active{
-    width: 30px;
+    width: 20px;
     background: var(--purple) !important;
 }
 /* ---------- /Testimonial-style -------------- */
@@ -724,6 +724,11 @@ header.sticky{
     padding: 10px;
     background-color: #000000;
     border: 1px solid var(--purple);
+    transition: 0.3s ease;
+}
+.contact-btn:hover{
+    background-color: var(--purple);
+    color: var(--white);
 }
 /* ---------- /contact-style -------------- */
 

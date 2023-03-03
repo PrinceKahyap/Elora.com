@@ -148,6 +148,58 @@
     .serviceBox p {
         font-size: 1.4rem;
     }
+    .carousel {
+        padding: 0 0px;
+    }
+    .card p{
+        font-size: 1.4rem;
+    }
+    .card h2{
+        font-size: 1.6rem;
+    }
+    .blog-content h3 {
+        font-size: 1.6rem;
+    }   
+    .blog-content p {
+        font-size: 1.4rem;
+    }   
+    .blog-btn{
+        font-size: 1.4rem;
+    }
+    .blog-btn i{
+        font-size: 1.4rem;
+        margin-left: 5px;
+    }
+    #myBtn {
+        bottom: 20px;
+    }
+    .foot-info p {
+        font-size: 1.8rem;
+    }
+    .contact {
+        padding-bottom: 30px;
+    }
+    .con-title h3 {
+        font-size: 2.5rem;
+    }
+    .con-title p {
+        font-size: 1.4rem;
+    }
+    .contact-info span {
+        font-size: 1.6rem;
+    }
+    .contact-info ul li {
+        font-size: 1.4rem;
+    }
+    .contactRight form input::placeholder {
+        font-size: 1.4rem;
+    }
+    .contact-btn {
+        font-size: 1.4rem;
+    }
+    .foot-icon ul {
+        gap: 10px;
+    }
 }
 @media (max-width:380px) {
     .logo a {
@@ -179,5 +231,18 @@
         font-size: 1.4rem;
         font-weight: 500;
         color: var(--white);
+    }
+    #myBtn {
+        bottom: 10px;
+        right: 10px;
+    }
+    .foot-info p {
+        font-size: 1.6rem;
+    }
+    .foot-info p {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        width: 78%;
+        margin: auto;
     }
 }
