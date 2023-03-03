@@ -88,7 +88,12 @@
         width: 120px;
         height: 120px;
     }
-
+    .about-info {
+        padding: 0 10px;
+    }
+    .about-content {
+        padding: 0px 10px;
+    }
     .num {
         font-size: 3rem;
         color: var(--purple);
@@ -104,7 +109,45 @@
     .nav-menu {
         top: 50px;
     }
-    
+    .hamburger .line{
+        width: 30px;
+    }
+    .about-info h2 {
+        font-size: 2.5rem;
+    }
+    .about-info p {
+        font-size: 1.4rem;
+    }
+    .num {
+        font-size: 2.5rem;
+    }
+    .aboutLeft-item p {
+        font-size: 1.4rem;
+    }
+    .experience-content p {
+        font-size: 1.4rem;
+    }
+    .experience-content h3 {
+        font-size: 1.8rem;
+    }
+    .experience-content span {
+        font-size: 1.4rem;
+    }
+    .experience-content p{
+        padding-right: 20px;
+    }
+    .title h2 {
+        font-size: 3rem;
+    }
+    .service-icon i {
+        font-size: 3.5rem;
+    }
+    .service-icon h3 {
+        font-size: 1.8rem;
+    }
+    .serviceBox p {
+        font-size: 1.4rem;
+    }
 }
 @media (max-width:380px) {
     .logo a {
@@ -128,5 +171,13 @@
     }
     .heroLeft h2 {
         font-size: 2rem;
+    }
+    .about {
+        padding-top: 100px;
+    }
+    .skill-content span {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: var(--white);
     }
 }
