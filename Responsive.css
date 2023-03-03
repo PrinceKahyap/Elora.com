@@ -98,6 +98,9 @@
         font-size: 3rem;
         color: var(--purple);
     }
+    .gallery-item{
+        width: calc(100%/2);
+    }
 }
 @media (max-width:568px) {
     .wrapper {
@@ -200,6 +203,14 @@
     .foot-icon ul {
         gap: 10px;
     }
+    .gallery-item{
+        width: calc(100%/1);
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .filter-item{
+        font-size: 1.6rem;
+    }
 }
 @media (max-width:380px) {
     .logo a {
@@ -231,6 +242,9 @@
         font-size: 1.4rem;
         font-weight: 500;
         color: var(--white);
+    }
+    .filter-item{
+        font-size: 1.4rem;
     }
     #myBtn {
         bottom: 10px;
