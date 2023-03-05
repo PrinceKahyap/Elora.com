@@ -9,9 +9,7 @@
     .experience-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        row-gap: 50px;
     }
-
 }
 
 @media (max-width:768px) {
@@ -210,6 +208,20 @@
     }
     .filter-item{
         font-size: 1.6rem;
+    }
+    .experience-item i {
+        font-size: 1.8rem;
+    }
+    .experience-container{
+        grid-gap: 50px;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutR{
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (max-width:380px) {

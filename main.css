@@ -180,7 +180,7 @@ header.sticky{
 
 /* ---------- About-style -------------- */
 .about{
-    padding-top: 50px;
+    padding-top: 80px;
 }
 .about-container{
     display: flex;
@@ -271,7 +271,7 @@ header.sticky{
 
 /* ---------- skill-style -------------- */
 .skill{
-    padding-top: 50px;
+    padding-top: 80px;
 }
 .skill-container{
     display: grid;
@@ -362,11 +362,15 @@ header.sticky{
 .experience{
     width: 100%;
     height: auto;
+    padding-top: 80px;
 }
 .experience-container{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    column-gap: 100px;
+    grid-gap: 100px;
+    z-index: 50;
+    overflow: hidden;
 }
 .experience-item{
     position: relative;
@@ -374,6 +378,7 @@ header.sticky{
     height: auto;
     border-left: 2px solid var(--purple);
     margin-left: 25px;
+    z-index: 100;
 }
 .experience-item i{
     position: absolute;
@@ -465,7 +470,7 @@ header.sticky{
 /* ---------- /service-style -------------- */
 
 /* ---------- portfolio-style -------------- */
-.porfolio{
+.portfolio{
     width: 100%;
     height: auto;
     padding-top: 80px;
