@@ -112,4 +112,10 @@ filterContainer.addEventListener("click", (event) => {
             }
         });
     }
-})
+});
+
+const preloader = document.getElementById("loader");
+
+function myLoder(){
+    preloader.style.display = "none";
+}
