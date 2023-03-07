@@ -525,6 +525,15 @@ header.sticky{
     }
     
 }
+.gallery-img{
+    overflow: hidden;
+}
+.gallery-img img{
+    transition: 0.5s ease-in;
+}
+.gallery-img:hover img{
+    transform: scale(1.2);
+}
 .gallery-item.hide{
     display: none;
 }
